@@ -14,6 +14,7 @@ Commands practiced:
 5- touch
 6- rm
 
+
 Notes can be found in: linux-notes.md
 
 Goal: Build strong DevOps skills including Docker, CI/CD, AWS, Terraform and Kuberenetes
