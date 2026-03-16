@@ -1,0 +1,8 @@
+Day1 - Linux Basics
+Commands learned:
+pwd - shows current directory
+ls - lists files in current directory
+mkdir - create folder
+cd - change directory
+touch - create file
+rm - delete file
