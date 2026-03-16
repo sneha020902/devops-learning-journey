@@ -1,6 +1,6 @@
 DEVOPS LEARNING JOURNEY
 
-This repository documents my journey to brcoming a DevOps/Cloud Engineer.
+This repository documents my journey to becoming a DevOps/Cloud Engineer.
 
 #Day1
 
@@ -14,7 +14,6 @@ Commands practiced:
 5- touch
 6- rm
 
-
-Notes can be founf in: linux-notes.md
+Notes can be found in: linux-notes.md
 
 Goal: Build strong DevOps skills including Docker, CI/CD, AWS, Terraform and Kuberenetes
