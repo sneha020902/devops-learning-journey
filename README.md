@@ -7,11 +7,17 @@ This repository documents my journey to becoming a DevOps/Cloud Engineer.
 Learned Linux basics and terminal commands.
 
 Commands practiced:
+
 1- pwd
+
 2- ls
+
 3- mkdir
+
 4- cd
+
 5- touch
+
 6- rm
 
 
