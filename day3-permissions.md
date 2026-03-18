@@ -7,6 +7,7 @@ ls -l -> shows permissions
 Permission Types:
 
 r- read
+
 w- wrire
 
 x- execute
