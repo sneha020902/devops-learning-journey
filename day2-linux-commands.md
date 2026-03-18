@@ -1,8 +1,8 @@
 Day2 - Linux Commands
 
-1- cat- displays content of a file
+    1- cat- displays content of a file
 
-2- less- view file content with scrolling (press q to exit)
+    2- less- view file content with scrolling (press q to exit)
 
 3- head- shows first lines of a file
 
