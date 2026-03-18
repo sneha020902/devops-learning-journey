@@ -6,27 +6,27 @@ Day3 - FILE PERMISSIONS
 
 PERMISSION TYPES:
 
-  r- read
+      r- read
 
-  w- wrire
+      w- wrire
 
-  x- execute
+      x- execute
 
 EACH PERMISSION HAS A VALUE:
 
-  r- 4
+      r- 4
 
-  w- 2
+      w- 2
 
-  x- 1
+      x- 1
 
   EXAMPLE:
 
-  rwx = 4+2+1 = 7
+      rwx = 4+2+1 = 7
 
-  rw- = 4+2 = 6
+      rw- = 4+2 = 6
 
-  r-- =4
+      r-- =4
 
 USERS: owner | group | others
 
