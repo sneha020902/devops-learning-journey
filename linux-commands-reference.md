@@ -60,17 +60,19 @@ This file contains commands I use during my DevOps learning journey.
     'git pull' - get latest changes
 
 -> Branching & Sync
+
     'git checkout main' - switch branch
     'git branch' - list branches
     'git pull origin main --rebase' - fix conflicts (like : ! [rejected] error: failed to push some refs to)
     'git rebase --continue' - continue rebase
 
 -> Troubleshooting
+
     'git status' - check changes
     'git log' - view commit history
 
 
-## File Editing
+-> File Editing
 
     'nano filename' - open editor
     'CTRL + X' → exit
