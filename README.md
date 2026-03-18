@@ -8,39 +8,39 @@ Learned Linux basics and terminal commands.
 
 Commands practiced:
 
-  1- pwd
+    1- pwd
 
-  2- ls
+    2- ls
 
-  3- mkdir
+    3- mkdir
 
-  4- cd
+    4- cd
 
-  5- touch
+    5- touch
 
-  6- rm
+    6- rm
 
 #Day2
 
 1- File viewing commands->
 
-cat- displays content of a file
+    cat- displays content of a file
 
-less- view file content with scrolling (press q to exit)
+    less- view file content with scrolling (press q to exit)
 
-head- shows first lines of a file
+    head- shows first lines of a file
 
-tail- shows last lines of a file (used for logs)
+    tail- shows last lines of a file (used for logs)
 
 2- Search and debugging tools->
 
-grep- search for text in files
+    grep- search for text in files
 
 3- Terminal productivity->
 
-history- shows previous commands
+    history- shows previous commands
 
-clear- clears terminal screen
+    clear- clears terminal screen
 
 #Notes can be found in: linux-notes.md
 
