@@ -5,8 +5,11 @@ This repository documents my journey to becoming a DevOps/Cloud Engineer. For de
 ## Notes & References
 
 -> Day 1: 'Day1-linux-basics.md'
+
 -> Day 2: 'Day2-linux-commands.md'
+
 -> Day 3: 'Day3-permissions.md'
+
 -> DevOps Commands: 'devops-commands-reference.md'
 
   
