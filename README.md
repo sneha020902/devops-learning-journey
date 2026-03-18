@@ -22,7 +22,7 @@ Commands practiced:
 
 #Day2
 
-File viewing commands->
+1- File viewing commands->
 
 cat- displays content of a file
 
@@ -32,16 +32,16 @@ head- shows first lines of a file
 
 tail- shows last lines of a file (used for logs)
 
-Search and debugging tools->
+2- Search and debugging tools->
 
 grep- search for text in files
 
-Terminal productivity->
+3- Terminal productivity->
 
 history- shows previous commands
 
 clear- clears terminal screen
 
-Notes can be found in: linux-notes.md
+#Notes can be found in: linux-notes.md
 
-Goal: Build strong DevOps skills including Docker, CI/CD, AWS, Terraform and Kuberenetes
+#Goal: Build strong DevOps skills including Docker, CI/CD, AWS, Terraform and Kuberenetes
