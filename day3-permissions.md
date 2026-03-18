@@ -51,3 +51,9 @@ WHAT IS 644"
       rw-r--r--
 
       MEANS- Owner(rw- -> 6), Group(r-- -> 4),  Others(r-- -> 4): Owner can read and write, others and group can only read. 
+
+WHAT IS 755?
+
+    rwxr-xr-x
+
+    MEANS- It gives full permission to owner and read-execute permissions to group and others.
