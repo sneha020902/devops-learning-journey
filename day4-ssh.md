@@ -23,10 +23,10 @@ Steps:
 
 Commands with their meaning:
 
-  1- 'ssh-keygen'- Generate SSH Key(after clicking "enter" for everything asked after this. Two keys will be generated                     id_abc and id_abc.pub.
+          1- 'ssh-keygen'- Generate SSH Key(after clicking "enter" for everything asked after this. Two keys will be generated                     id_abc and id_abc.pub.
                    'id_abc' - private key (keep secret)
                    'id_abc.pub' - public key (share)
-  2- 'cat ~/.ssh/id_abc.pub' - to view your public key
+          2- 'cat ~/.ssh/id_abc.pub' - to view your public key
 
 What is the use of this key?
     When we launch your AWS server: We use this key to login
