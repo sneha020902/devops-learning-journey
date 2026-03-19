@@ -4,7 +4,7 @@ This repository documents my journey to becoming a DevOps/Cloud Engineer. For de
 
 ## Notes & References
 
--> Day 1: (day1-linux-basics.md)
+-> Day 1: [Linux Basics](day1-linux-basics.md)
 
 -> Day 2: ' day2-linux-commands.md '
 
