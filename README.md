@@ -34,9 +34,9 @@ Commands practiced:
     4- cd
     5- touch
     6- rm
-[view notes] (day1-linux-basics.md)
+[View Notes](day1-linux-basics.md)
 
-## Day2 - File handeling and Debugging [view notes ' day2-linux-commands.md ']
+## Day2 - File handeling and Debugging 
 
 1- File viewing commands->
 
@@ -53,6 +53,8 @@ Commands practiced:
 
     history- shows previous commands
     clear- clears terminal screen
+
+[View Notes](day2-linux-commands.md)
     
 ## Day 3 — File Permissions [view notes ' day3-permissions.md ']
 
@@ -67,14 +69,16 @@ Commands practiced:
 
 3- Real-world debugging: fixing "Permission denied" errors
 
-## Day 4 - SSH & Remote Access [view notes ' day4-ssh.md ']
+[View Notes](day3-permissions.md)
 
+## Day 4 - SSH & Remote Access 
 What is SSH?
 
     Generating SSH keys (`ssh-keygen`)
     Understanding public/private keys
     Connecting to servers
 
+[view notes](day4-ssh.md)
 
 
 #Goal: Build strong DevOps skills including Docker, CI/CD, AWS, Terraform and Kuberenetes and become a job-ready DevOps Engineer, by building real-world projects and mastering cloud and automation tools.
