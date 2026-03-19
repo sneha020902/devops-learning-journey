@@ -21,7 +21,7 @@ This repository documents my journey to becoming a DevOps/Cloud Engineer. For de
     CI/CD (coming soon)
     Kubernetes (coming soon)
 
-## Day1 - Linux Basics
+## Day1 - Linux Basics [https://github.com/sneha020902/devops-learning-journey/blob/main/day1-linux-basics.md]
 
 Learned Linux basics and terminal commands.
 Commands practiced:
