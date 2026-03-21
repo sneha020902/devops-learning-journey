@@ -16,11 +16,16 @@ This repository documents my journey to becoming a DevOps/Cloud Engineer. For de
 
 -> Day 5: [AWS EC2 & Cloud Server](day5-aws-ec2.md)
 
+-> Day 6: [Web App Deployment](day6-app-deployment.md)
+
   
 ## Tools & Technologies
     Linux
     Git & GitHub
-    AWS (coming soon)
+    SSH
+    AWS EC2
+    Python (Basic Web Server)  
+    Networking (Ports, Public IP)  
     Docker (coming soon)
     CI/CD (coming soon)
     Kubernetes (coming soon)
@@ -92,5 +97,19 @@ What is SSH?
 
 [View Notes](day5-aws-ec2.md)
 
+Day 6 — Web Application Deployment  
+
+  Deployed Python web server on EC2
+  Created and served custom webpage
+  Opened port 8000 for public access
+  Observed real-time HTTP logs
+
+[View Notes](day6-app-deployment.md)
+
+
 
 #Goal: Build strong DevOps skills including Docker, CI/CD, AWS, Terraform and Kuberenetes and become a job-ready DevOps Engineer, by building real-world projects and mastering cloud and automation tools.
+
+##Author
+Sneha Agrawal
+Germany
