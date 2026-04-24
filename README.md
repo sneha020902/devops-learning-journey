@@ -1,115 +1,83 @@
-## DEVOPS LEARNING JOURNEY
+# 🛣️ DevOps Learning Journey
 
-This repository documents my journey to becoming a DevOps/Cloud Engineer. For deep dive in any topic check that particular day.
+> My personal, day-by-day documentation of learning DevOps and Cloud Engineering from scratch — built in public. Every concept, command, mistake, and breakthrough is written here.
 
-## Notes & References
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 
--> Day 1: [Linux Basics](day1-linux-basics.md)
+---
 
--> Day 2: [Linux Commands](day2-linux-commands.md)
+## 🎯 Goal
 
--> Day 3: [Permissions](day3-permissions.md)
+Become a job-ready **Cloud / DevOps Engineer** by building a strong foundation — one day at a time. No shortcuts. Every day is a real hands-on session, not just watching tutorials.
 
--> DevOps Commands: [Reference](devops-commands-reference.md)
+---
 
--> Day 4: [SSH](day4-ssh.md)
+## 📚 Learning Roadmap
 
--> Day 5: [AWS EC2 & Cloud Server](day5-aws-ec2.md)
+| Day | Topic | Status |
+|---|---|---|
+| Day 1 | Linux Basics — filesystem, terminal, essential commands | ✅ Done |
+| Day 2 | Linux File Handling & Debugging — cat, grep, tail, history | ✅ Done |
+| Day 3 | File Permissions — chmod, ls -l, numeric permissions (755, 644) | ✅ Done |
+| Day 4 | SSH & Remote Access — keygen, public/private keys, connecting to servers | ✅ Done |
+| Day 5 | AWS EC2 — launch instance, SSH in, install Git, clone repos | ✅ Done |
+| Day 6 | Web App Deployment — Python server on EC2, open port 8000, live logs | ✅ Done |
+| Next | Docker & Containers | 🔜 Coming |
+| Next | CI/CD with GitHub Actions | 🔜 Coming |
+| Next | Terraform / Infrastructure as Code | 🔜 Coming |
+| Next | Kubernetes | 🔜 Coming |
 
--> Day 6: [Web App Deployment](day6-app-deployment.md)
+---
 
-  
-## Tools & Technologies
-    Linux
-    Git & GitHub
-    SSH
-    AWS EC2
-    Python (Basic Web Server)  
-    Networking (Ports, Public IP)  
-    Docker (coming soon)
-    CI/CD (coming soon)
-    Kubernetes (coming soon)
+## 📂 What's Inside
 
-## Day1 - Linux Basics 
+```
+devops-learning-journey/
+├── day1-linux-basics.md         # pwd, ls, mkdir, cd, touch, rm
+├── day2-linux-commands.md       # cat, less, head, tail, grep, history
+├── day3-permissions.md          # chmod, ls -l, numeric permissions
+├── day4-ssh.md                  # ssh-keygen, public/private keys, remote login
+├── day5-aws-ec2.md              # Launch EC2, SSH connect, install Git
+├── day6-app-deployment.md       # Python web server, port 8000, HTTP logs
+└── devops-commands-reference.md # Quick-reference cheatsheet
+```
 
-Learned Linux basics and terminal commands.
-Commands practiced:
+---
 
-    1- pwd
-    2- ls
-    3- mkdir
-    4- cd
-    5- touch
-    6- rm
-[View Notes](day1-linux-basics.md)
+## 🔧 Tools & Technologies Covered
 
-## Day2 - File handeling and Debugging 
+| Category | Tools |
+|---|---|
+| OS & Shell | Linux (Ubuntu), Bash |
+| Version Control | Git, GitHub |
+| Remote Access | SSH, SSH key pairs |
+| Cloud | AWS EC2, Security Groups, Public IPs |
+| Networking | Ports, HTTP, Public/Private IPs |
+| Coming Soon | Docker, GitHub Actions, Terraform, Kubernetes |
 
-1- File viewing commands->
+---
 
-    cat- displays content of a file
-    less- view file content with scrolling (press q to exit)
-    head- shows first lines of a file
-    tail- shows last lines of a file (used for logs)
+## 💡 Why I'm Doing This in Public
 
-2- Search and debugging tools->
+Learning in public keeps me accountable and helps others who are on the same path. If you're also learning DevOps, feel free to use these notes, ask questions, or share your own journey.
 
-    grep- search for text in files
+These aren't polished tutorials — they're raw, honest notes from someone actively learning. Some days I made mistakes, hit errors, and had to debug for hours. That's all documented here too.
 
-3- Terminal productivity->
+---
 
-    history- shows previous commands
-    clear- clears terminal screen
+## 🤝 How to Use This Repo
 
-[View Notes](day2-linux-commands.md)
-    
-## Day 3 — File Permissions [view notes ' day3-permissions.md ']
+1. Browse the day-by-day `.md` files for notes on each topic
+2. Use `devops-commands-reference.md` as a quick cheatsheet
+3. Follow along if you're on the same journey — star the repo to stay updated
 
-    chmod -> change file permissions
-    ls -l -> shows permissions
+---
 
-1- Understanding permissions (`r`, `w`, `x`)
+## 👩‍💻 Author
 
-2- Using `chmod` to modify access
-
-3- Numeric permissions (`777`, `644`, `755`)
-
-3- Real-world debugging: fixing "Permission denied" errors
-
-[View Notes](day3-permissions.md)
-
-## Day 4 - SSH & Remote Access 
-What is SSH?
-
-    Generating SSH keys (`ssh-keygen`)
-    Understanding public/private keys
-    Connecting to servers
-
-[view notes](day4-ssh.md)
-
-## Day 5 — AWS EC2 & Cloud Server  
-  
-    Launched EC2 instance  
-    Connected using SSH  
-    Installed Git on server  
-    Cloned GitHub repo  
-    Fixed authentication using SSH keys
-
-[View Notes](day5-aws-ec2.md)
-
-Day 6 — Web Application Deployment  
-
-  Deployed Python web server on EC2
-  Created and served custom webpage
-  Opened port 8000 for public access
-  Observed real-time HTTP logs
-
-[View Notes](day6-app-deployment.md)
-
-
-
-#Goal: Build strong DevOps skills including Docker, CI/CD, AWS, Terraform and Kuberenetes and become a job-ready DevOps Engineer, by building real-world projects and mastering cloud and automation tools.
-
-##Author
-Sneha Agrawal
-Germany
+**Sneha Agrawal** — Aspiring Cloud & DevOps Engineer | Weimar, Germany
+🔗 [LinkedIn](https://www.linkedin.com/in/-snehaagrawal/) · [GitHub](https://github.com/sneha020902) · [Portfolio](https://sneha020902.github.io)
