@@ -1,4 +1,4 @@
-# 🛣️ DevOps Learning Journey
+#  DevOps Learning Journey
 
 > My personal, day-by-day documentation of learning DevOps and Cloud Engineering from scratch — built in public. Every concept, command, mistake, and breakthrough is written here.
 
