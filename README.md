@@ -1,4 +1,4 @@
-# 🚀 Flask DevOps Pipeline
+# Flask DevOps Pipeline
 
 > A production-style Flask app containerized with Docker and automatically deployed to AWS EC2 via GitHub Actions CI/CD pipeline.
 
@@ -11,13 +11,13 @@
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 Developer pushes code → GitHub Actions triggers → SSH into EC2 → Pull latest image → Restart Docker container → Live at EC2 public IP
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -30,7 +30,7 @@ Developer pushes code → GitHub Actions triggers → SSH into EC2 → Pull late
 
 ---
 
-## 🚀 Features
+## Features
 
 - Flask app with `/` and `/health` endpoints
 - Fully containerized with Docker
@@ -40,7 +40,7 @@ Developer pushes code → GitHub Actions triggers → SSH into EC2 → Pull late
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 flask-devops-pipeline/
@@ -53,7 +53,7 @@ flask-devops-pipeline/
 
 ---
 
-## 🛠️ Run Locally
+## Run Locally
 
 ```bash
 # Clone the repo
@@ -69,7 +69,7 @@ docker run -p 5000:5000 flask-devops
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Sneha Agrawal** — M.Sc. Computer Science @ Bauhaus-Universität Weimar
 🔗 [LinkedIn](https://www.linkedin.com/in/-snehaagrawal/) · [GitHub](https://github.com/sneha020902) · [Portfolio](https://sneha020902.github.io)
