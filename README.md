@@ -13,7 +13,13 @@
 
 ## Architecture
 
-Developer pushes code → GitHub Actions triggers → SSH into EC2 → Pull latest image → Restart Docker container → Live at EC2 public IP
+![Architecture Diagram](screenshots/Architecture%20diagram%20.png)
+
+---
+
+## Live Demo
+
+![App Live](screenshots/App%20live%20in%20browser%20.png)
 
 ---
 
@@ -48,22 +54,31 @@ flask-devops-pipeline/
 ├── Dockerfile                    # Container configuration
 ├── requirements.txt              # Python dependencies
 ├── .github/workflows/deploy.yml  # CI/CD pipeline
-└── devops-commands-reference.md  # Quick reference cheatsheet
+└── screenshots/                  # Project screenshots
 ```
+
+---
+
+## Screenshots
+
+### GitHub Actions Pipeline
+![GitHub Actions](screenshots/GitHub%20Actions%20green.png)
+
+### AWS EC2 Instance
+![EC2 Running](screenshots/EC2-running.png)
+
+### CloudWatch Monitoring
+![CloudWatch Alarm](screenshots/CloudWatch%20alarm.png)
 
 ---
 
 ## Run Locally
 
 ```bash
-# Clone the repo
 git clone https://github.com/sneha020902/flask-devops-pipeline.git
 cd flask-devops-pipeline
-
-# Build and run with Docker
 docker build -t flask-devops .
 docker run -p 5000:5000 flask-devops
-
 # Visit http://localhost:5000
 ```
 
