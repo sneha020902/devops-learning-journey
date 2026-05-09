@@ -1,4 +1,5 @@
-from flask import Flask
+from flask import Flask, jsonify
+import datetime
 
 app = Flask(__name__)
 
@@ -8,7 +9,16 @@ def home():
 
 @app.route("/health")
 def health():
-    return {"status": "ok"}, 200
+    return jsonify({"status": "ok"}), 200
+
+@app.route("/status")
+def status():
+    return jsonify({
+        "status": "running",
+        "app": "Flask DevOps Pipeline",
+        "version": "2.0",
+        "timestamp": datetime.datetime.utcnow().isoformat()
+    }), 200
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
